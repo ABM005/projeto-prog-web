@@ -1,0 +1,31 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;800;900&family=Roboto:wght@400;500&display=swap');
+
+
+
+*{
+  margin: 0;
+  padding: 0;
+}
+body{
+  background-color: #FFFCFC;
+  overflow-x: hidden;
+  /* overflow-y: hidden; */
+}
+
+button{
+  background: none;
+  border: none;
+  font-family:'Inter', sans-serif;
+  font-weight: bold;
+}
+button:hover{
+  cursor: pointer;
+}
+main{
+  position: absolute;
+  top: 11%;
+  height: 100%;
+  width: 100%;
+}
+
+

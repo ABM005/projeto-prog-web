@@ -1,0 +1,64 @@
+@import url('https://fonts.googleapis.com/css2?family=Cookie&family=Inter:wght@300;400;800;900&family=Roboto:wght@400;500&display=swap');
+
+
+main#index{
+    top: 0%;
+}
+
+main section.begin{
+    height: 85%;
+    width: 100%;
+    /* border: 1px solid red; */
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+main section .ellipse{
+    position: relative;
+    bottom: 11%;
+    left: 65%;
+    z-index: -1;
+    transform: rotateZ(45deg);
+    width: 45%;
+    height: 148%;
+    background-image: linear-gradient(30deg, #FFEA4F 80%, #FAF9F7 30%);
+    border-radius: 50%;
+}
+main section #div-content{
+    position: absolute;
+    width: 95%;
+    height: 85%;
+    /* border: 1px solid blue; */
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    align-items: center;
+    justify-content: space-between;
+}
+main section #div-content h1{
+    font-family: 'Cookie', cursive;
+    margin-left: 20%;
+    position: relative;
+    font-size: 6em;
+    font-weight: 400;
+    animation: title 2s ease-out ;
+}
+
+
+@keyframes title{
+    from{
+        right: 40%;
+    }
+    to{
+        right: 0%;
+    }
+}
+@keyframes dog{
+    from{
+        left: 50%;
+    }
+    to{
+        left: 0%;
+    }
+}
